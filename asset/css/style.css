@@ -12,7 +12,7 @@
 * ======================================================= */
 body {
   /* font-family: "Montserrat", Arial, sans-serif;  */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 12pt;
   line-height: 1.5;
@@ -79,7 +79,14 @@ img{
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+h6{
+  color: #000;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -145,7 +152,7 @@ h2 {
   width: 100%;
   padding: 30px 0;
   z-index: 1001;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
@@ -206,7 +213,7 @@ h2 {
   list-style: none;
   display: inline;
   line-height: 1.5;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;
 }
 .gtco-nav ul li > a {
   text-transform: uppercase;
@@ -426,7 +433,7 @@ h2 {
   margin-top: 20px;
   font-size: 12px;
   font-weight: 700;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;
 }
 
 #gtco-footer {
@@ -489,7 +496,7 @@ h2 {
 #gtco-footer .gtco-footer-link .gtco-list-link li a {
   text-transform: uppercase;
   font-size: 13px !important;
-  font-family: "Montserrat", Arial, sans-serif;;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;;
 }
 #gtco-footer .gtco-footer-subscribe {
   padding-left: 30px;
@@ -526,7 +533,7 @@ h2 {
 #gtco-footer .gtco-copyright p {
   color: black;
   font-size: 9pt;
-  font-family: "Montserrat", Arial, sans-serif;;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;;
 }
 
 #gtco-footer .gtco-copyright a {
@@ -547,7 +554,7 @@ h2 {
 #gtco-footer-fixed .gtco-copyright p {
   color: black;
   font-size: 9pt;
-  font-family: "Montserrat", Arial, sans-serif;;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;;
 }
 
 #gtco-footer-fixed .gtco-copyright a {
@@ -795,7 +802,7 @@ blockquote p > cite {
 }
 #gtco-offcanvas a {
   color: rgba(255, 255, 255, 0.5);
-  font-family: "Montserrat", Arial, sans-serif;;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;;
 }
 #gtco-offcanvas a:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -1002,7 +1009,7 @@ blockquote p > cite {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Montserrat", Arial, sans-serif;;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;;
   font-size: 13px;
   font-weight: 700 !important;
   -webkit-border-radius: 0px;
@@ -1405,7 +1412,7 @@ blockquote p > cite {
 }
 
 .gtco-more {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: .05em;
@@ -1532,7 +1539,7 @@ blockquote p > cite {
 
 .tab{
   text-align: right; 
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;
   text-transform: uppercase;
   display: inline-block;
   color: black;
@@ -1541,7 +1548,7 @@ blockquote p > cite {
 
 .tab-left{
   text-align: left; 
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Lato', "Montserrat", Arial, sans-serif;
   text-transform: uppercase;
   display: inline-block;
   color: black;
@@ -1629,6 +1636,10 @@ blockquote p > cite {
   color: black;
   margin: 0em;
   padding: 0em;
+  font-weight: 800;
+}
+
+.news a{
   font-weight: 600;
 }
 
@@ -1674,8 +1685,13 @@ blockquote p > cite {
   height: 100%;
 }
 
+.bullet {
+  font-size: 0.8em;
+  margin: 0 0.6em;
+}
+
 h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', 'Open Sans', sans-serif;
   font-size: 1em;
   line-height: 1.3em;
   margin-bottom: 0.2em;
