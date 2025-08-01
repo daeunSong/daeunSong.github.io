@@ -3,12 +3,22 @@ const lightbox = GLightbox({
 	autoplayVideos: true
 })
 
-const lightbox2 = GLightbox({
+const lightbox_edu = GLightbox({
+	loop: true,
+	selector: '.glightbox-edu'
+})
+
+const lightbox_itrc = GLightbox({
+	loop: true,
+	selector: '.glightbox-itrc'
+})
+
+const lightbox_codraw = GLightbox({
 	loop: true,
 	selector: '.glightbox-codraw'
 })
 
-const lightbox3 = GLightbox({
+const lightbox_boeing = GLightbox({
 	loop: true,
 	selector: '.glightbox-boeing'
 })
