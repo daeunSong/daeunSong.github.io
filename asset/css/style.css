@@ -1639,8 +1639,12 @@ blockquote p > cite {
   font-weight: 800;
 }
 
-.news a{
+/* .news b{
   font-weight: 600;
+} */
+
+.news a{
+  /* font-weight: 400; */
 }
 
 .news a:hover{
