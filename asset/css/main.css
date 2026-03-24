@@ -56,6 +56,24 @@ a:hover { color: var(--primary-lt); text-decoration: underline; }
 /* ── Hero ── */
 .hero {
   padding: 52px 0 72px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  right: -80px;
+  width: 560px;
+  height: 560px;
+  background: url('../ewha.png') no-repeat center / contain;
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: 0;
+}
+.hero .container {
+  position: relative;
+  z-index: 1;
 }
 .site-title {
   font-family: 'EB Garamond', serif;
@@ -137,4 +155,5 @@ footer {
   .hero { padding: 48px 0; }
   .hero-inner { flex-direction: column; gap: 24px; }
   .hero-photo { width: 210px; margin: 0 auto; }
+  .hero::after { width: 420px; height: 420px; bottom: -60px; right: -60px; opacity: 0.08; }
 }
